@@ -43,22 +43,22 @@ Requirements
 
 Installation
 
-    Clone the Repository:
+Clone the Repository:
 
-git clone <repository-url>
-cd <repository-directory>
+    git clone https://github.com/k0k1s/simple_nmap
+    cd simple_nmap
 
-    Install Dependencies:
+Install Dependencies:
 Make sure you have Python 3 and Nmap installed.
 
-    Make Scripts Executable:
+Make Scripts Executable:
     
-chmod +x menu.sh
-chmod +x ping_scan.py
-chmod +x port_scan.py
-chmod +x service_version_detection.py
-chmod +x os_detection.py
-chmod +x host_discovery.py
-chmod +x aggressive_scan.py
+    chmod +x menu.sh
+    chmod +x ping_scan.py
+    chmod +x port_scan.py
+    chmod +x service_version_detection.py
+    chmod +x os_detection.py
+    chmod +x host_discovery.py
+    chmod +x aggressive_scan.py
 
 Enjoy
