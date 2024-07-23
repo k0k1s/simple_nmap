@@ -96,12 +96,12 @@ while true; do
             ;;
         "") # Enter key
             case $CURRENT_SELECTION in
-                0) python3 ping_scan.py ;;
-                1) python3 port_scan.py ;;
-                2) python3 service_version_detection.py ;;
-                3) python3 os_detection.py ;;
-                4) python3 host_discovery.py ;;
-                5) python3 aggressive_scan.py ;;
+                0) python3 ./py/ping_scan.py ;;
+                1) python3 ./py/port_scan.py ;;
+                2) python3 ./py/service_version_detection.py ;;
+                3) python3 ./py/os_detection.py ;;
+                4) python3 ./py/host_discovery.py ;;
+                5) python3 ./py/aggressive_scan.py ;;
                 6) exit 0 ;;
                 *) echo "Invalid selection" ;;
             esac
