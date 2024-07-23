@@ -1,5 +1,7 @@
 Simple NMAP
 
+![image](https://github.com/user-attachments/assets/efe11d2f-d8ec-44d7-b613-94b254bceee6)
+
 Description
 
 This project provides a command-line interface to perform various Nmap scans using a menu-driven approach. The menu allows users to select different types of scans and handle the results, including saving them in different formats. The project includes a main script (menu.sh) that acts as a launcher for different scan types implemented in separate Python scripts.
